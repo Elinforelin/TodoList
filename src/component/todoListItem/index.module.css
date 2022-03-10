@@ -1,0 +1,64 @@
+.todoList {
+	max-width: 400px;
+	display: inline-block;
+	margin: 0 auto 40px;
+	position: absolute;
+	top: 140px;
+	left: -15px;
+	word-wrap: break-all;
+}
+.todoItem {
+	width: 424px;
+	padding: 10px;
+	background-color: rgb(255, 228, 224);
+	border: 3px solid rgb(194, 103, 103);
+	margin-top: 12px;
+	list-style-type: none;
+	justify-content: flex-end;
+	display: flex;
+	justify-content: space-between;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.wrapBtn {
+	display: flex;
+}
+
+.editBtn {
+	color: teal;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "Nunito Sans", sans-serif;
+}
+.deleteBtn {
+	margin-right: 5px;
+	color: rgb(155, 60, 44);
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.lineThrough {
+	/* text-decoration: line-through; */
+	width: 424px;
+	padding: 10px;
+	background-color: rgb(235, 255, 224);
+	border: 3px solid mediumseagreen;
+	margin-top: 12px;
+	list-style-type: none;
+	justify-content: flex-end;
+	display: flex;
+	justify-content: space-between;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.lineThroughText {
+	text-decoration: line-through;
+	text-decoration-color: rgb(155, 60, 44);
+}
